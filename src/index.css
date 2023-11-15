@@ -6,9 +6,20 @@
 
 body {
 	background: whitesmoke;
+	cursor: default;
 }
 
 img {
 	max-height: 100%;
 	max-width: 100%;
+}
+
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
 }
