@@ -1,25 +1,29 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	background: whitesmoke;
-	cursor: default;
+  cursor: default;
+  background: whitesmoke;
+}
+.app {
+  min-width: 250px;
+  min-height: 200vh;
 }
 
 img {
-	max-height: 100%;
-	max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 button {
-	background: none;
-	border: none;
-	cursor: pointer;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
