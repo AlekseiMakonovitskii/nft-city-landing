@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,16 +8,22 @@
 
 body {
   cursor: default;
-  background: whitesmoke;
+  background: white;
+  font-family: 'Poppins', sans-serif;
 }
+
 .app {
   min-width: 250px;
-  min-height: 200vh;
 }
 
 img {
   max-height: 100%;
   max-width: 100%;
+}
+
+p {
+  color: gray;
+  font-size: 1.2rem;
 }
 
 button {
@@ -24,6 +32,14 @@ button {
   cursor: pointer;
 }
 
+a {
+  cursor: pointer;
+}
+
 ul {
   list-style: none;
+}
+
+.purple-text {
+  color: #9733ee;
 }

@@ -13,7 +13,7 @@ const Header = () => {
   const size = useWindowSize();
 
   useEffect(() => {
-    if (size.width >= 960) {
+    if (size.width >= 800) {
       setIsOpen(false);
     }
   }, [size]);
@@ -21,12 +21,14 @@ const Header = () => {
   return (
     <>
       <header className={styles.header}>
-        <img src={logoImg} alt="Logo" />
+        <div className={styles.container}>
+          <img src={logoImg} alt="Logo" />
 
-        <Nav isOpen={isOpen} screen={'desktop'} />
+          <Nav isOpen={isOpen} screen={'desktop'} />
 
-        <div className={styles.burgerBtn}>
-          <Hamburger toggled={isOpen} toggle={setIsOpen} direction="left" />
+          <div className={styles.burgerBtn}>
+            <Hamburger toggled={isOpen} toggle={setIsOpen} direction="left" />
+          </div>
         </div>
       </header>
 

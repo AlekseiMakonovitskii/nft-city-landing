@@ -33,7 +33,7 @@
   display: none;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 800px) {
   .anchors {
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 800px) {
   .desktop {
     display: none;
   }
@@ -58,16 +58,16 @@
     z-index: 2;
     transition-duration: 0.5s;
     padding-top: 0.5rem;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.26);
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.26);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.26);
+    border-bottom: 1px solid lightgray;
     font-size: 1.5rem;
     padding: 0 1rem;
     min-width: 250px;
+    opacity: 1;
   }
 
   .navOpen {
     transform: translateY(80px);
     background: white;
+    opacity: 1;
   }
 }
